@@ -1,0 +1,90 @@
+header{
+    background-color:rgb(138, 150, 223) ;
+
+}
+
+body{
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(37, 47, 73);
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: "Mate";
+    
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+ 
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+ 
+h1{
+    font-family:'Lobster';
+    font-size:50px;
+    
+}
+h2 {
+   font-style: italic;
+   font-size: 25px;
+}
+.column {
+    float: left;
+    width: 25%;
+    font-size: 15px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .section{ 
+      border-style: groove;
+  }
+footer{
+    background-color: rgb(138, 150, 223);
+    font-size:15px;
+    position: relative;
+}
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+ /* Media for Mobile Devices */
+@media only screen and (max-width: 480px){}
